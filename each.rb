@@ -15,7 +15,7 @@ weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 words = ["car", "bike", "bus", "van", "scooter", "truck", "rv"]
   words.each do |word|
   if word.length == 3
-    puts "3 characters in length!"
+    puts word
   else
     puts "Forget about it."
   end
